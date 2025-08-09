@@ -14,19 +14,20 @@ const NavBar = () => {
                     </div>
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                        className="menu text-[rgba(255,255,255,0.5)] text-[18px] menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
                         {links}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-3xl font-bold text-[#131313]">Books_Hub</a>
+                <a className="btn btn-ghost text-3xl font-bold ">Books_Hub</a>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1">
+                <ul className="menu menu-horizontal px-1 text-[rgba(255,255,255,0.5)] text-[18px]">
                     {links}
                 </ul>
             </div>
-            <div className="navbar-end">
-                <a className="btn">Button</a>
+            <div className="navbar-end gap-4">
+                <a className="btn py-4 px-7 bg-[#23BE0A] hover:bg-[#3e7b3f] font-bold rounded-[8px]">Sign In</a>
+                <a className="btn py-4 px-7 bg-[#59C6D2] hover:bg-[#5298a0] font-bold rounded-[8px]">Sign Up</a>
             </div>
         </div>
     );
