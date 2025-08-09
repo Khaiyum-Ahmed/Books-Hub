@@ -1,8 +1,13 @@
+import { Outlet } from "react-router-dom";
+import Footer from "../Footer/Footer";
+import NavBar from "../NavBar/NavBar";
 
 const Root = () => {
     return (
-        <div>
-            <h1 className="text-6xl text-center bg-gray-200 py-4 text-[#000] font-bold max-w">Hello react route world</h1>
+        <div className="max-w-11/12 mx-auto">
+            <NavBar></NavBar>
+            <Outlet></Outlet>
+            <Footer></Footer>
         </div>
     );
 };
