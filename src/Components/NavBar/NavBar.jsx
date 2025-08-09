@@ -26,7 +26,7 @@ const NavBar = () => {
                     {links}
                 </ul>
             </div>
-            <div className="navbar-end gap-4">
+            <div className="navbar-end gap-4 md:flex hidden">
                 <a className="btn py-4 px-7 bg-[#23BE0A] hover:bg-[#3e7b3f] font-bold rounded-[8px]">Sign In</a>
                 <a className="btn py-4 px-7 bg-[#59C6D2] hover:bg-[#5298a0] font-bold rounded-[8px]">Sign Up</a>
             </div>
